@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "diretiva"
+  "defaultProject": "diretiva",
+  "cli": {
+    "analytics": "0c6a71ba-87ed-459f-b4fa-49c4811f3c6f"
+  }
 }
