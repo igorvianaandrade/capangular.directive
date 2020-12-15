@@ -19,7 +19,7 @@ import { Component, AfterContentChecked, AfterContentInit,
    this.displayChild=!this.displayChild;
    }
    ngOnChanges() {
-  67
+
    console.log("AppComponent:OnChanges");
    }
    ngOnInit() {

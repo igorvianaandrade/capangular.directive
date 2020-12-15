@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChangeTextDirective } from './shared/directives/change-text.directive';
 import { ChildComponent } from './child/child.component';
+import { CampoColoridoDirective } from './shared/directives/campo-colorido.directive';
+import { FuncionarioFormComponent } from './funcionario-form/funcionario-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChangeTextDirective,
-    ChildComponent
+    ChildComponent,
+    CampoColoridoDirective,
+    FuncionarioFormComponent
   ],
   imports: [
     BrowserModule,
